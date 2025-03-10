@@ -1,0 +1,124 @@
+
+.top-container{
+  width: 100% ;
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(181, 199, 231);
+  text-align: center;
+  position: relative;
+}
+.mid-container{
+  margin: 100px 0;
+}
+h1{
+  margin-bottom: 0;
+  margin-top: 100px;
+  font-size: 50px;
+}
+h2{
+  font-family: "Merienda", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size:45px;
+  margin-top: 0;
+  color: rgb(11, 11, 11);
+}
+.profile h2{
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-top: 33.2px;  
+  font-family: "Pacifico", serif;
+  font-style: normal;
+}
+
+body{
+  background-image: url('https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  text-align: center;
+}
+.profile img{
+  height: 250px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  color: rgb(181, 199, 231);
+  font-size: x-large;
+}
+.parent{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  text-align: left;
+  margin: 100px auto 0 auto;
+  width: 60%;
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 2rem;
+}
+hr{
+  border: dotted 6px;
+  border-bottom: none;
+  width: 8%;
+  margin: 100px auto;
+}
+.Board img{
+  height: 180px;
+  margin-right: 10px;
+}
+.skills h2{
+  color: rgb(181, 199, 231);
+  font-family: "Pacifico", serif;
+  font-style: normal;
+  font-weight: 10000;
+
+}
+h3{
+  font-family: "Merienda", serif;
+  font-size:200%;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 2%;
+  color: black;
+}
+p{
+  color: rgb(252, 252, 252);
+  font-size: x-large;
+  font-family: "PT Serif", serif;
+}
+.yap img{
+  height: 200px;
+  width: 300px;
+}
+.contact h2{
+  color: black;
+}
+.contact h3{
+  color: rgb(13, 14, 14);
+}
+.btn{
+  color: white;
+  border-color: black;
+  background-color: rgb(10, 9, 9);
+}
+.btn:hover {
+  background: #0e538f;
+  background-image: -webkit-linear-gradient(top, #253a64, #253a64);
+  background-image: -moz-linear-gradient(top, #253a64, #253a64);
+  background-image: -ms-linear-gradient(top, #253a64,#253a64);
+  background-image: -o-linear-gradient(top, #253a64, #253a64);
+  background-image: linear-gradient(to bottom, #b0c2e6,#c4cee3);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: black;
+  padding: 60px 0 3px;
+  font-family: "Pacifico", serif;
+  font-style: normal;
+}
+span{
+  color: white;
+  font-size: x-large;
+}
